@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_relativeLayout">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/lingraj2"
+        android:paddingLeft="5dp"
+        android:id="@+id/item_image" />
+    <LinearLayout
+        android:id="@+id/textLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_image"
+        android:orientation="vertical"
+        android:padding="16dp">
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ram Mandir"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saheed Nagar" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:src="@mipmap/info_button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAVIGATE"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+
+
+</RelativeLayout>

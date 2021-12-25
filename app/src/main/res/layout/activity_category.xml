@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cool_background" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:backgroundTint="#FFAB00"
+                android:text="Tourist Attraction"
+                android:id="@+id/tour"
+                android:layout_margin="20dp"/>
+
+            <Button
+                android:id="@+id/restaurant"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:backgroundTint="#4CAF50"
+                android:text="Dining/Hangouts"
+                android:textColor="@color/white"
+                android:layout_margin="20dp"/>
+
+            <Button
+                android:id="@+id/insti"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#880E4F"
+                android:text="Institutes"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/hotel"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#0277BD"
+                android:text="Hotels/Resorts"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/hospital"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#D50000"
+                android:text="Hospitals/Clinics"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/govt_building"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#6A1B9A"
+                android:text="Govt. Buildings"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

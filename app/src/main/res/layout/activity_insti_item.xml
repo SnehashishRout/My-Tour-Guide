@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/hd_back" />
+        <TextView
+            android:id="@+id/title"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UDAYGIRI-KHANDAGIRI CAVES"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:id="@+id/rating"
+            android:layout_width="84dp"
+            android:layout_height="68dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/rating2" />
+        <ImageView
+            android:id="@+id/web_info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/web_info_ic"
+            android:layout_marginTop="90dp"
+            android:paddingRight="20dp"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:text="TIMING: 5:00AM-9:00PM              VISIT DURATION:1-2 hours"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="145sp"/>
+        <TextView
+            android:id="@+id/entry_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Entry Fee: Rs.100"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="170dp"/>
+
+        <TextView
+            android:id="@+id/itemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="230dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>
